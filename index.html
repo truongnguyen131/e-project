@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-project</title>
+
+    <!-- Liên kết CSS Bootstrap -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Liên kết CSS Font-Awesome -->
+    <link href="vendor/fontawesome/css/all.min.css" type="text/css" rel="stylesheet" />
+
+    <style>
+        .hinh-tieu-de img {
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Thanh dieu huong -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./asssets/img/header-1.jpg" width="30" height="30" class="d-inline-block align-top" alt=""
+                loading="lazy">
+            RichField Chair
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gioi-thieu">Gioi Thieu</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="San-pham" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        San Pham
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tham-khao">Tham khao</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./asssets/pages/Lien_he.html">Lien he</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <!-- Tieu de -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner hinh-tieu-de">
+                        <div class="carousel-item active">
+                            <img src="./asssets/img/header-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./asssets/img/header-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./asssets/img/header-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gioi thieu -->
+    <!-- nut di den page gioi thieu, so luot, counter -->
+    <div class="container-fluid" style="background-image: url(./asssets/img/background-gioithieu.jpg);">
+        <h1 style="color: seashell;">
+            Giới thiệu
+        </h1>
+        <div class="row">
+            <div class="col-md-8">
+
+            </div>
+            <div class="col-md-4">
+                <img src="./asssets/img/gioithieu.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- San pham -->
+    <!-- loại gì->nhieu muc ( thuong hieu, mau sac, gia tien, mua hang, ....)->trang mua san pham(thong tin, cach thuc thanh toan, so luong, gia tien, tinh tien.....) -->
+    <div class="container-fluid " style="background-color: black">
+        <h1 style="color: seashell; text-align: right;">Sản Phẩm</h1>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+        <div class="row my-3">
+            
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Tham khao -->
+    <!-- Arize/slide -->
+    <div class="container-fluid" style="background-color: black;">
+        <div class="row" >
+            <h1 style="color: seashell;">Một số mẫu design</h1>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <div class="container">
+        <div class="row" style="height: 600px;">
+            <h1>Day la phan gioi thieu cac thanh vien</h1>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <div class="row" style="height: 250px;">
+            <h1>Day la phan footer</h1>
+        </div>
+    </div>
+
+
+    <!-- Liên kết Jquery -->
+    <script src="./vendor/jquery/jquery.js"></script>
+
+    <!-- Liên kết Bootstrap -->
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Javascript & Jquery -->
+    <script>
+        // Thoi gian chuyen hinh cua tieu de
+        $('.carousel').carousel({
+            interval: 900
+        })
+    </script>
+</body>
+
+</html>
+
+
+
+<!-- <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a> -->
